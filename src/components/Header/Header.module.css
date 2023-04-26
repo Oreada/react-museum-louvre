@@ -1,0 +1,72 @@
+.header {
+  height: 150px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+
+  /* background-color: #030303; */
+  background-color: var(--black);
+  color: var(--white);
+}
+
+.container {
+  width: 1470px;
+  margin: 0px auto;
+  padding: 0px 15px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: baseline;
+  gap: 25px;
+  cursor: pointer;
+}
+
+.logo-image {
+  width: 49px;
+  fill: var(--white);
+  transition: all 0.3s ease 0s;
+}
+
+.logo-image:hover {
+  fill: var(--gold);
+}
+
+.logo-title {
+  vertical-align: bottom;
+  text-transform: uppercase;
+  font-size: 28px;
+  font-family: "Forum", serif;
+  letter-spacing: 5px;
+  transition: all 0.3s ease 0s;
+}
+
+.logo-title:hover {
+  color: var(--gold);
+}
+
+.pages {
+  display: flex;
+  align-items: center;
+  gap: 55px;
+}
+
+.link {
+  font-size: 22px;
+  letter-spacing: 2px;
+  font-weight: 100;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+}
+
+.link:hover {
+  color: var(--gold);
+}

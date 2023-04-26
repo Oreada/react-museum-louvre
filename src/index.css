@@ -1,3 +1,12 @@
+:root {
+  --black: #030303;
+  --red: #710707;
+  --gold: #9d8665;
+  --white: #FFFFFF;
+}
+
+/* ------------------------------------------------- */
+
 * {
   padding: 0;
   margin: 0;
@@ -112,14 +121,20 @@ img {
   height: 100%;
 }
 
-.container {
+.wrapper {
   display: flex;
   flex-direction: column;
   min-height: 100%;
-  max-width: 1200px;
-  padding: 0px 15px;
-  margin: 0px auto;
+  /* max-width: 1200px; */
+  /* padding: 0px 15px; */
+  /* margin: 0px auto; */
 }
+
+/* .container {
+  max-width: 1470px;
+  margin: 0px auto;
+  padding: 0px 15px;
+} */
 
 /* .основной-блок-чтобы-прижать-футер {
   flex: 1 1 100%;
