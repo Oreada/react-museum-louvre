@@ -27,14 +27,18 @@
   cursor: pointer;
 }
 
+.logo:hover .logo-image {
+  fill: var(--gold);
+}
+
+.logo:hover .logo-title {
+  color: var(--gold);
+}
+
 .logo-image {
   width: 49px;
   fill: var(--white);
   transition: all 0.3s ease 0s;
-}
-
-.logo-image:hover {
-  fill: var(--gold);
 }
 
 .logo-title {
@@ -44,10 +48,6 @@
   font-family: "Forum", serif;
   letter-spacing: 5px;
   transition: all 0.3s ease 0s;
-}
-
-.logo-title:hover {
-  color: var(--gold);
 }
 
 .pages {
