@@ -8,7 +8,7 @@ export const Header = () => {
 				<nav className={style.row}>
 					<div className={style.logo}>
 						<Logo className={style["logo-image"]} />
-						<h2 className={style["logo-title"]}>Louvre</h2>
+						<h1 className={style["logo-title"]}>Louvre</h1>
 					</div>
 					<div className={style.pages}>
 						<div className={style.link}>Visiting</div>
