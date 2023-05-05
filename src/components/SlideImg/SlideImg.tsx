@@ -12,12 +12,9 @@ export const SlideImg = ({ item }: SlideProps) => {
 	return (
 		<div className={style.container}>
 			<div className={style.wrapper}>
-				<div className={style.text}>
-					<h2 className={style.title}>Welcome to&nbsp;the Louvre</h2>
-					<h3 className={style.subtitle}>From the castle to the museum</h3>
-					<button className={style.button} type="button">Discover the Louvre</button>
-				</div>
-				<img className={style.image} src={item.image} alt="Painting from Louvre" />
+				<div className={style.image} style={{
+					backgroundImage: `linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0.5) 16.19%, rgba(0, 0, 0, 0) 30.73%), url(${item.image})`
+				}} />
 			</div>
 		</div>
 	);
