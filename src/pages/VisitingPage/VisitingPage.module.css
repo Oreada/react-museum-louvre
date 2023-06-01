@@ -1,0 +1,41 @@
+.main {
+  height: 100%;
+  flex: 1 1 auto;
+  /* flex: 1 1 100%; */
+  background-color: var(--white);
+  color: var(--black);
+
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+.container {
+  position: relative;
+
+  max-width: 1470px;
+  margin: 0px auto;
+  padding: 0px 15px;
+}
+
+.title {
+  position: relative;
+  font-family: "Forum", serif;
+  font-size: 80px;
+  line-height: 112%;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: var(--gold);
+  margin-bottom: 100px;
+  /* 75px + 25px для полосы-псевдоэлемента */
+}
+
+.title::after {
+  content: "";
+  position: absolute;
+  bottom: -25px;
+  /* bottom: 0; */
+  left: 0;
+  right: 0;
+  height: 3px;
+  background-color: var(--red);
+}
