@@ -36,6 +36,8 @@
 }
 
 .button {
+  display: flex;
+  align-items: center;
   height: 75px;
   font-size: 22px;
   font-weight: 300;
