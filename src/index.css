@@ -129,13 +129,12 @@ img {
   /* margin: 0px auto; */
 }
 
-.main {
+/* .main {
   height: 100%;
   flex: 1 1 auto;
-  /* flex: 1 1 100%; */
   background-color: var(--black);
   color: var(--white);
-}
+} */
 
 /* .container {
   max-width: 1470px;
