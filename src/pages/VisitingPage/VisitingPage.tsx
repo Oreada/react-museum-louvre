@@ -1,3 +1,4 @@
+import { TourList } from '../../components/TourList/TourList';
 import style from './VisitingPage.module.css';
 
 export const VisitingPage = () => {
@@ -5,9 +6,7 @@ export const VisitingPage = () => {
 		<div className={style.main}>
 			<div className={style.container}>
 				<h2 className={style.title}>Virtual&nbsp;tour</h2>
-				<ul className={style.list}>
-					{ }
-				</ul>
+				<TourList />
 			</div>
 		</div>
 	)
