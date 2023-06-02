@@ -1,0 +1,52 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.image {
+  max-width: 440px;
+  height: auto;
+}
+
+.body {}
+
+.title {
+  position: relative;
+  font-family: "Forum", serif;
+  font-size: 32px;
+  line-height: 109%;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: var(--black);
+  margin-bottom: 22px;
+  /* 10px + 10px для полосы-псевдоэлемента + 2px толщина полосы */
+}
+
+.title::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  /* bottom: 0; */
+  left: 0;
+  right: 0;
+  max-width: 300px;
+  height: 2px;
+  background-color: var(--red);
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.info-item {
+  font-size: 18px;
+  font-weight: 100;
+  line-height: 118%;
+}
+
+.info-item:nth-child(1) {
+  font-size: 22px;
+}
